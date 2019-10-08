@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file alias="aboutDlgLogo">Resources/app.png</file>
+        <file alias="appLogo">Resources/appLogo.png</file>
+        <file alias="forwardCenter">Resources/forwardCenter.png</file>
+    </qresource>
+</RCC>
