@@ -1,0 +1,30 @@
+<RCC>
+  <qresource prefix="/ForwardCenter">
+    <file alias="visualization">Resources/Visualization.png</file>
+    <file alias="export">Resources/export.png</file>
+    <file alias="import">Resources/import.png</file>
+    <file alias="delete">Resources/delete.png</file>
+    <file alias="add">Resources/add.png</file>
+    <file alias="info">Resources/info.png</file>
+    <file alias="rename">Resources/rename.png</file>
+    <file alias="gridInfoSetting">Resources/gridInfo.png</file>
+    <file alias="project">Resources/projectRoot.png</file>
+    <file alias="gridSize">Resources/gridInfo__Size.png</file>
+    <file alias="gridYRange">Resources/gridInfo__YRange.png</file>
+    <file alias="gridXRange">Resources/gridInfo_XRange.png</file>
+    <file alias="model">Resources/model.png</file>
+    <file alias="addModel">Resources/modelAdding.png</file>
+    <file alias="gravity">Resources/gravity.png</file>
+    <file alias="magnetic">Resources/magnetic.png</file>
+    <file alias="forwardData">Resources/forwardDataRoot.png</file>
+    <file alias="cog">Resources/cog.png</file>
+    <file alias="bullet1">Resources/bullet1.png</file>
+    <file alias="bullet2">Resources/bullet2.png</file>
+    <file alias="bullet3">Resources/bullet3.png</file>
+    <file alias="cube">Resources/cube.png</file>
+    <file alias="sphere">Resources/sphere.png</file>
+    <file>Resources/save.png</file>
+    <file alias="bullet">Resources/bullet.png</file>
+    <file>Resources/geoMagSetting.png</file>
+  </qresource>
+</RCC>
