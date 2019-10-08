@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="UI.qrc">
+    <normaloff>:/UI/dialogLogo</normaloff>:/UI/dialogLogo</iconset>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>true</bool>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="MatplotlibWidget" name="YZgraphWgt" native="true"/>
+   </item>
+  </layout>
+  <action name="actionColorFilling">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="UI.qrc">
+     <normaloff>:/UI/Resources/colorFilling.png</normaloff>:/UI/Resources/colorFilling.png</iconset>
+   </property>
+   <property name="text">
+    <string>颜色填充</string>
+   </property>
+   <property name="toolTip">
+    <string>是否开启颜色填充</string>
+   </property>
+  </action>
+  <action name="actionHillShading">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="UI.qrc">
+     <normaloff>:/UI/Resources/HillShading.png</normaloff>:/UI/Resources/HillShading.png</iconset>
+   </property>
+   <property name="text">
+    <string>山体阴影</string>
+   </property>
+   <property name="toolTip">
+    <string>是否开启山体阴影</string>
+   </property>
+  </action>
+  <action name="actionColorLining">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="UI.qrc">
+     <normaloff>:/UI/Resources/colorLining.png</normaloff>:/UI/Resources/colorLining.png</iconset>
+   </property>
+   <property name="text">
+    <string>颜色轮廓</string>
+   </property>
+   <property name="toolTip">
+    <string>是否开启颜色轮廓</string>
+   </property>
+  </action>
+  <action name="actionSaving">
+   <property name="icon">
+    <iconset resource="UI.qrc">
+     <normaloff>:/UI/Resources/save.png</normaloff>:/UI/Resources/save.png</iconset>
+   </property>
+   <property name="text">
+    <string>保存</string>
+   </property>
+   <property name="toolTip">
+    <string>保存成grd文件</string>
+   </property>
+  </action>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>MatplotlibWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">matplotlibWidget</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="UI.qrc"/>
+ </resources>
+ <connections/>
+</ui>

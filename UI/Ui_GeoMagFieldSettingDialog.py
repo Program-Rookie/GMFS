@@ -1,0 +1,115 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'D:\pyCharm\project\UI\GeoMagFieldSettingDialog.ui'
+#
+# Created by: PyQt5 UI code generator 5.11.3
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_yQGeoMagFieldSettingDialog(object):
+    def setupUi(self, yQGeoMagFieldSettingDialog):
+        yQGeoMagFieldSettingDialog.setObjectName("yQGeoMagFieldSettingDialog")
+        yQGeoMagFieldSettingDialog.resize(428, 176)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(yQGeoMagFieldSettingDialog.sizePolicy().hasHeightForWidth())
+        yQGeoMagFieldSettingDialog.setSizePolicy(sizePolicy)
+        icon = QtGui.QIcon()
+        icon.addPixmap(QtGui.QPixmap(":/UI/dialogLogo"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        yQGeoMagFieldSettingDialog.setWindowIcon(icon)
+        self.verticalLayout = QtWidgets.QVBoxLayout(yQGeoMagFieldSettingDialog)
+        self.verticalLayout.setContentsMargins(11, 11, 11, 11)
+        self.verticalLayout.setSpacing(6)
+        self.verticalLayout.setObjectName("verticalLayout")
+        self.groupBox = QtWidgets.QGroupBox(yQGeoMagFieldSettingDialog)
+        self.groupBox.setObjectName("groupBox")
+        self.gridLayout = QtWidgets.QGridLayout(self.groupBox)
+        self.gridLayout.setContentsMargins(11, 11, 11, 11)
+        self.gridLayout.setSpacing(6)
+        self.gridLayout.setObjectName("gridLayout")
+        self.label = QtWidgets.QLabel(self.groupBox)
+        self.label.setObjectName("label")
+        self.gridLayout.addWidget(self.label, 0, 0, 1, 1)
+        self.label_2 = QtWidgets.QLabel(self.groupBox)
+        self.label_2.setObjectName("label_2")
+        self.gridLayout.addWidget(self.label_2, 1, 0, 1, 1)
+        self.T0 = QtWidgets.QLineEdit(self.groupBox)
+        self.T0.setText("")
+        self.T0.setObjectName("T0")
+        self.gridLayout.addWidget(self.T0, 0, 1, 1, 1)
+        self.label_3 = QtWidgets.QLabel(self.groupBox)
+        self.label_3.setObjectName("label_3")
+        self.gridLayout.addWidget(self.label_3, 2, 0, 1, 1)
+        self.D0 = QtWidgets.QLineEdit(self.groupBox)
+        self.D0.setText("")
+        self.D0.setObjectName("D0")
+        self.gridLayout.addWidget(self.D0, 2, 1, 1, 1)
+        self.label_4 = QtWidgets.QLabel(self.groupBox)
+        self.label_4.setObjectName("label_4")
+        self.gridLayout.addWidget(self.label_4, 0, 2, 1, 1)
+        self.label_5 = QtWidgets.QLabel(self.groupBox)
+        self.label_5.setObjectName("label_5")
+        self.gridLayout.addWidget(self.label_5, 1, 2, 1, 1)
+        self.label_6 = QtWidgets.QLabel(self.groupBox)
+        self.label_6.setObjectName("label_6")
+        self.gridLayout.addWidget(self.label_6, 2, 2, 1, 1)
+        self.I0 = QtWidgets.QLineEdit(self.groupBox)
+        self.I0.setText("")
+        self.I0.setObjectName("I0")
+        self.gridLayout.addWidget(self.I0, 1, 1, 1, 1)
+        self.verticalLayout.addWidget(self.groupBox)
+        self.horizontalLayout = QtWidgets.QHBoxLayout()
+        self.horizontalLayout.setSpacing(6)
+        self.horizontalLayout.setObjectName("horizontalLayout")
+        spacerItem = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
+        self.horizontalLayout.addItem(spacerItem)
+        self.okButton = QtWidgets.QPushButton(yQGeoMagFieldSettingDialog)
+        icon1 = QtGui.QIcon()
+        icon1.addPixmap(QtGui.QPixmap(":/UI/apply"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.okButton.setIcon(icon1)
+        self.okButton.setObjectName("okButton")
+        self.horizontalLayout.addWidget(self.okButton)
+        self.cancelButton = QtWidgets.QPushButton(yQGeoMagFieldSettingDialog)
+        icon2 = QtGui.QIcon()
+        icon2.addPixmap(QtGui.QPixmap(":/UI/cancel"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.cancelButton.setIcon(icon2)
+        self.cancelButton.setObjectName("cancelButton")
+        self.horizontalLayout.addWidget(self.cancelButton)
+        self.verticalLayout.addLayout(self.horizontalLayout)
+
+        self.retranslateUi(yQGeoMagFieldSettingDialog)
+        self.cancelButton.clicked.connect(yQGeoMagFieldSettingDialog.reject)
+        self.okButton.clicked.connect(yQGeoMagFieldSettingDialog.accept)
+        QtCore.QMetaObject.connectSlotsByName(yQGeoMagFieldSettingDialog)
+        yQGeoMagFieldSettingDialog.setTabOrder(self.T0, self.I0)
+        yQGeoMagFieldSettingDialog.setTabOrder(self.I0, self.D0)
+        yQGeoMagFieldSettingDialog.setTabOrder(self.D0, self.okButton)
+        yQGeoMagFieldSettingDialog.setTabOrder(self.okButton, self.cancelButton)
+
+    def retranslateUi(self, yQGeoMagFieldSettingDialog):
+        _translate = QtCore.QCoreApplication.translate
+        yQGeoMagFieldSettingDialog.setWindowTitle(_translate("yQGeoMagFieldSettingDialog", "地磁参数设置"))
+        self.groupBox.setTitle(_translate("yQGeoMagFieldSettingDialog", "地球磁场参数"))
+        self.label.setText(_translate("yQGeoMagFieldSettingDialog", "磁场强度（T0）"))
+        self.label_2.setText(_translate("yQGeoMagFieldSettingDialog", "地磁倾角（I0）"))
+        self.label_3.setText(_translate("yQGeoMagFieldSettingDialog", "地磁偏角（D0）"))
+        self.label_4.setText(_translate("yQGeoMagFieldSettingDialog", "（单位：nT）"))
+        self.label_5.setText(_translate("yQGeoMagFieldSettingDialog", "（单位：度）"))
+        self.label_6.setText(_translate("yQGeoMagFieldSettingDialog", "（单位：度）"))
+        self.okButton.setText(_translate("yQGeoMagFieldSettingDialog", "确定"))
+        self.cancelButton.setText(_translate("yQGeoMagFieldSettingDialog", "取消"))
+
+import UI.UI_rc
+
+if __name__ == "__main__":
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    yQGeoMagFieldSettingDialog = QtWidgets.QDialog()
+    ui = Ui_yQGeoMagFieldSettingDialog()
+    ui.setupUi(yQGeoMagFieldSettingDialog)
+    yQGeoMagFieldSettingDialog.show()
+    sys.exit(app.exec_())
+

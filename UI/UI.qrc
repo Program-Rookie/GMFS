@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="/UI">
+    <file alias="dialogLogo">Resources/appLogo1.png</file>
+    <file>Resources/save.png</file>
+    <file alias="apply">Resources/apply.png</file>
+    <file alias="cancel">Resources/cancel.png</file>
+    <file>Resources/CubeInput.png</file>
+    <file>Resources/SphereInput.png</file>
+    <file>Resources/colorFilling.png</file>
+    <file>Resources/HillShading.png</file>
+    <file>Resources/colorLining.png</file>
+    <file>Resources/colorTable.png</file>
+  </qresource>
+</RCC>
